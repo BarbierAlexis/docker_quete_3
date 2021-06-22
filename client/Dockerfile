@@ -6,6 +6,6 @@ COPY package.json ./
 COPY yarn.lock ./
 RUN yarn install
 COPY src src
-COPY public publicé
+COPY public public
 
 CMD ["yarn", "run", "start"]
